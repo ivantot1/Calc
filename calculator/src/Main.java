@@ -58,7 +58,7 @@ public class Main {
 
 
 
-    public static String calculator(String input) {
+    public static String calc(String input) {
         String[] split = input.split(" ");
 
         String inputNum1;
