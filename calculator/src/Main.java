@@ -18,7 +18,7 @@ public class Main {
             }
             try {
                 String result = calc(input);
-                System.out.println("Результат: " + result);
+                System.out.println("Результат==: " + result);
             } catch (IllegalArgumentException e) {
                 System.out.println("Ошибка: " + e.getMessage());
                 break;
